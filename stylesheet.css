@@ -1,5 +1,14 @@
 @font-face {
     font-family: 'Graphik Arabic';
+    src: local('GraphikArabicMedium'), local('GraphikArabic-Medium'),
+        url('GraphikArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
     src: local('GraphikArabicBlack'), local('GraphikArabic-Black'),
         url('GraphikArabic-Black.ttf') format('truetype');
     font-weight: 900;
@@ -30,15 +39,6 @@
     src: local('GraphikArabicLight'), local('GraphikArabic-Light'),
         url('GraphikArabic-Light.ttf') format('truetype');
     font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Graphik Arabic';
-    src: local('GraphikArabicMedium'), local('GraphikArabic-Medium'),
-        url('GraphikArabic-Medium.ttf') format('truetype');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
